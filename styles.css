@@ -1,0 +1,169 @@
+.li1 {
+    float:left;
+    margin-right: 10px;
+    text-transform: uppercase;
+}
+
+.li2 {
+    float:right;
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+
+
+  .navi {
+    list-style-type: none;
+    padding-bottom: 30px;
+    font-size: 15px;
+    padding-right: 20px;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+}
+  
+
+#banner{
+    
+    position: relative;
+}
+body{
+    padding-left: 50px;
+    padding-right: 50px;
+} 
+
+  .guides-content{
+      float:left;
+      width: 33.33%;
+  }
+ 
+ 
+
+* {
+
+    box-sizing: border-box;
+  
+  }
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+@media only screen and (min-width: 992px) {
+    .col-4 {
+        width: 33.33%; 
+    }
+    .guides{
+        background-color: rgb(206, 204, 204);
+        padding: 20px;
+        overflow: auto;
+    }
+    .footer{
+        background-color: rgb(220, 220, 220); 
+        padding-bottom: 50px;
+        overflow: auto;
+      }
+.banner-background {
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/ltp/img/lodging.png");
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.banner-content {
+    position:absolute;
+    padding-top: 120px;
+    padding-left: 70px;
+
+}
+.banner-content > p {
+    color:white; 
+    font-size: 20px; 
+    margin-top: -35px;
+}
+.banner-content > h1 {
+    font-size:350%; 
+    color:white
+}
+.navi a:link {
+    text-decoration: none;
+    color: black;
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+    .col-s-6 {
+        width: 50%;
+    }
+    .col-s-12 {
+        width: 100%;
+    }
+    .guides-s{
+        background-color: white;
+        padding: 20px;
+        overflow: auto;
+    }
+    .footer-s {
+        background-color: white; 
+        padding-bottom: 50px;
+        overflow: auto;
+      }
+    .navi-background {
+        background-color: rgb(50, 47, 85);
+        padding: 50px;
+
+    }
+    .navi a:link { 
+    text-decoration: none;
+    color: white;
+    }
+    .banner-s {
+        height:200px;
+        background-image:none;
+        border-bottom: 1px solid grey;
+    }
+    .banner-contents {
+        position:absolute;
+        padding-top: 50px;
+        padding-left: 0;
+    }
+    .banner-contents > h1 {
+        color: black;
+        font-size: 200%;
+        padding-left: 10px;
+    }
+    .banner-contents > p {
+        color: black;
+        margin-top: 0;
+        padding-left: 10px;
+    }
+    
+}
+@media only screen and (max-width: 768px) {
+    .col-xs-12 {
+        width: 100%;
+    }
+    .navi a:link { 
+        text-decoration: none;
+        color:white;
+        }
+    .link- a:link {
+        text-decoration: underline;
+        color:black;
+    }
+    .navi-background {
+        background-color: rgb(50, 47, 85);
+        padding: 50px;
+
+    }
+    .lixs{
+        float:left;
+        width: 20%;
+        margin-right: 0px;
+        margin-left:0px;
+        text-transform: uppercase;
+        padding: auto;
+    }
+}
